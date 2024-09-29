@@ -15,6 +15,7 @@ body
 {
     position: relative;
     overflow: hidden;
+    background-color: #1137ca;
 }
 #page1
 {
@@ -122,4 +123,231 @@ body
     line-height: 1;
     font-size: 4vw;
     font-weight: 400;
+}
+#page3
+{
+    height: 100vh;
+    width:100vw;
+    /* background-color: red; */
+    position: relative;
+}
+#page3>canvas
+{
+    max-height:100vh;
+    max-width: 100vw;
+    position:relative;
+}
+#page4
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1137ca;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#page4>h3
+{
+    margin-left: 10vw;
+    font-weight: 200;
+    color: #fff;
+    font-size: 22px;
+}
+#page4>h1
+{
+    margin-left: 10vw;
+    width: 80%;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #ffffff5f;
+}
+#page5
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page5>canvas
+{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#page6
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#page6>h3
+{
+    margin-left: 10vw;
+    font-weight: 200;
+    color: #fff;
+    font-size: 22px;
+}
+#page6>h1
+{
+    margin-left: 10vw;
+    width: 80%;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #ffffff5f;
+}
+#page7
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+}
+#page7>canvas
+{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.page7-circle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.page7-inner-circle
+{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+#page8
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
+#page8>video
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page8-bottom
+{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.page8-bottom>h1
+{
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+    font-weight: 400;
+}
+.page8-bottom>button
+{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0a3cce;
+}
+#page9
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    display: flex;
+}
+.left-9
+{
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+.left-9>h1
+{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-size: 5vw;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+}
+.right-9
+{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.right9-center
+{
+    height: 55%;
+    width: 85%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(magma.wp2.cubdev.com-home-1.jpeg);
+    background-size: cover;
+    left: 5%;
+}
+#page10
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
+.right10
+{
+    left: 40%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.right10-inner
+{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    height: 33.3%;
+    width: 100%;
+    color: #fff;
+}
+.right10-inner>h1
+{
+    font-size: 2vw;
+    font-weight: 500;
+}
+.right10-inner>p
+{
+    margin-top: 1vw;
+    width: 80%;
+    font-size: 1.5vw;
+    font-weight: 200;
 }
